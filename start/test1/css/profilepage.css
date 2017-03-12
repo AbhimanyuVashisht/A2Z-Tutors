@@ -1,0 +1,46 @@
+html{
+	background: rgba(19, 35, 47, 1.2); 
+}
+.leftwrap
+{    
+	/*padding-left: 10px;*/
+	background: rgba(19, 35, 47, 1.2);
+	height:100%;
+	float:left;
+	width:20%;
+}
+.bodycontent
+{
+	/*background-color:#c1bdba;*/
+	background: rgba(19, 35, 47, 1.2);
+	padding-top: 0px;
+	padding-left: 0px;
+	
+	font-family: 'Titillium Web', sans-serif;
+	height:100%;
+	float:left;
+	width: 80%;
+}
+#content1
+{
+	background-color:#c1bdba;
+	border-top:5px solid red;
+	width:97%;
+	float:left;
+	height:100px; 
+	margin-bottom: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+#content2
+{
+	background-color:#c1bdba;
+	border-top:5px solid red;
+	width:97%;
+	float:left;
+	height:200px; 
+	margin-bottom: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}

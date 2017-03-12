@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>
+Registeration page
+</title>
+<link rel="stylesheet" type="text/css" href="test1login.css"/>
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="fancySelect.js"></script>
+<link rel="stylesheet" media="screen, projection" href="fancySelect.css">
+<script>
+    $(document).ready(function() {
+    $('#menu').fancySelect();
+    });
+    </script>
+</head>
+<body style="font-family: 'Comic Sans MS', cursive;">
+<div class="content">
+
+
+<div class="body">
+<div id="bodyheader">
+<form action="index.php">
+<input id="input1" type="submit" name="proj_back_to_home" style="border-top:5px solid blue; border-left:0px; width:150px;height:50px; background-color:grey;font-size:23px;float:right;" value="Home"></input></form>
+<font color="white" style="font-family: 'Comic Sans MS', cursive;"><i><h1>Register</h1></i></font><br><font color="white" style="font-family: 'Comic Sans MS', cursive;"><i><h1>(@AtoZ-Tutor)</h1></i></font></div>
+<div id="bodycontent">
+	<form method="POST" action="test1loginphp.php">
+    	<input type="text" name="proj_username" placeholder="Username" required="required" style="color:black;"/><br><br>
+        <input type="password" name="proj_pass" placeholder="Password" required="required" style="color:black;"/><br><br>
+        <input type="email" name="proj_email" placeholder="Email" required="required" style="color:black;"/><br><br>
+        <input  type="textarea" name="proj_location" placeholder="Address" required="required" style="color:black; height:100px;"/><br><br>
+        <input type="textarea" name="proj_number" placeholder="Contact Number" required="required" style="color:black;"/><br><br>
+        <input type="date" name="proj_dob" placeholder="DOB(dd-mm-yy)" required="required" style="color:black;"/><br><br>
+        <input id="male" type="radio" name="proj_gender" value="male">
+        <label for="male" ><b><i><font size="3px">Male</font></i></b></label>
+        <input id="female" type="radio" name="proj_gender" value="female">
+        <label for="female"><b><i><font size="3px">Female</font></i></b></label><br>
+        <br><b><i><font size="3px">Kindly Select Profession !</font></i></b></label>&nbsp;&nbsp;&nbsp;
+        <input id="tutor" type="radio" name="proj_profession" value="tutor">
+        <label for="tutor" ><b><i><font size="3px">Tutor</font></i></b></label>
+        <input id="student" type="radio" name="proj_profession" value="student">
+        <label for="student"><b><i><font size="3px">Student</font></i></b></label>
+        <br><br>
+     
+        <select id="menu" name="proj_field">
+       <option value=""><a href="http://www.jqueryscript.net/menu/">Please select your field</a></option>
+       <option value="Database Systems And Web">Database Systems And Web</option>
+       <option value="Theory of Computation">Theory of Computation</option>
+       <option value="VLSI Designing">VLSI Designing</option>
+       <option value="Artificial Intelligence">Artificial Intelligence</option>
+       <option value="Networking">Networking</option>
+       
+       </select>
+        <br><br>
+        <input id="input1" type="submit" name="proj_submit" style="border-top:5px solid blue; border-left:0px; width:150px;height:50px; background-color:grey;font-size:23px;" value="Register!">
+        <button type="reset" style="border-top:5px solid blue;width:150px;height:50px; background-color:grey;"><font color:"black" size="5px" ><i> Reset </i></font></button>
+    </form>
+</div>
+<div id="bodyfooter">
+</div>
+</div>
+
+</div>
+</body>
