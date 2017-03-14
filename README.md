@@ -1,3 +1,2 @@
 # A2Z-Tutors
-A simple website developed in php, javascript, html, css and mysql in which users can register as either students or teachers. 
-Teachers can specify the subjects they can teach, and the students can choose subjects accordingly.
+As a DBMS Project , built a basic home tutor website using Php , MySql , JavaScript , HTML5 and CSS capable of storing data relating to the courses offered by a tutor and preferred courses of a student !
